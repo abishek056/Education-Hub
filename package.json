@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
-  "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify"
-},
-
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,5 +15,4 @@
     "@tailwindcss/cli": "^4.3.3",
     "tailwindcss": "^4.3.3"
   }
-  
 }
