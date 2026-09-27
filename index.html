@@ -12,8 +12,8 @@
 
   <!-- ===================== NAVBAR ===================== -->
   <header class="sticky top-0 z-50 bg-white shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16 md:h-20">
+    <div class="max-w-7xl mx-auto px-8">
+      <div class="flex items-center justify-between h-20">
         
         <!-- Logo -->
         <a href="#" class="flex items-center gap-2">
@@ -26,11 +26,9 @@
           </div>
         </a>
 
-        <!-- Desktop Menu -->
-        <nav class="hidden md:flex items-center gap-1">
-          <a href="#home" class="flex items-center gap-1.5 bg-amber-400 text-white px-4 py-2 rounded-full text-sm font-semibold">
-            <i class="fa-solid fa-house text-xs"></i> Home
-          </a>
+        <!-- Menu -->
+        <nav class="flex items-center gap-1">
+          <a href="#about" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-amber-500 transition">Home</a>
           <a href="#about" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-amber-500 transition">About us</a>
           <a href="#subjects" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-amber-500 transition">Subject</a>
           <a href="#gallery" class="px-4 py-2 text-sm font-medium text-gray-700 hover:text-amber-500 transition">Gallery</a>
@@ -40,6 +38,54 @@
       </div>
     </div>
   </header>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section id="home" class="relative overflow-hidden bg-white">
+    <div class="max-w-7xl mx-auto px-8 py-20">
+      <div class="grid grid-cols-2 gap-12 items-center">
+        
+        <!-- Left Content -->
+        <div>
+          <h1 class="text-7xl font-extrabold leading-none mb-4">
+            <span class="text-amber-500">EDUCATION</span><br />
+            <span class="text-gray-900">HUB</span>
+          </h1>
+          
+          <p class="text-lg text-gray-600 mb-2">
+            <span class="text-amber-500 font-semibold">Education Hub</span> is Part of Your Heart about Learning.
+          </p>
+          <p class="text-gray-600 mb-8 max-w-md">
+            We can take you to the best future, join with us!<br />
+            Let’s be the best in ourselves!
+          </p>
+
+          <div class="flex gap-4">
+            <a href="#contact" class="bg-amber-400 hover:bg-amber-500 text-white font-semibold px-8 py-3 rounded-lg transition">
+              Join
+            </a>
+            <a href="#contact" class="border-2 border-amber-400 text-amber-500 hover:bg-amber-50 font-semibold px-8 py-3 rounded-lg transition">
+              Contact us
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="relative">
+          <!-- Decorative circles -->
+          <div class="absolute -top-6 -right-6 w-32 h-32 border-4 border-amber-300 rounded-full opacity-60"></div>
+          <div class="absolute top-20 -left-4 w-20 h-20 border-4 border-amber-300 rounded-full opacity-50"></div>
+          <div class="absolute bottom-10 right-10 w-16 h-16 border-4 border-amber-300 rounded-full opacity-40"></div>
+
+          <img 
+            src="assets/images/stu learning.jpg" 
+            alt="Students learning" 
+            class="relative z-10 w-full max-w-lg rounded-2xl object-cover shadow-xl"
+          />
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
